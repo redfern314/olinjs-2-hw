@@ -1,0 +1,8 @@
+extends layout
+
+block content
+  h1= title
+  div
+    each cat in cats
+      div(value=cat) 
+        p #{cat.name} is #{cat.age} years old. Its coat is #{cat.colors[0]} and #{cat.colors[1]}. Isn't it cute?
