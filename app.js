@@ -1,6 +1,12 @@
 
 /**
  * Module dependencies.
+
+SOURCES:
+http://stackoverflow.com/questions/4299991/how-to-sort-in-mongoose
+http://mongoosejs.com/
+http://docs.mongodb.org/
+https://github.com/visionmedia/jade#readme
  */
 
 var express = require('express')
